@@ -8,7 +8,7 @@
 			"help": { "online": "https://github.com/DolphinGui/stdarduino" },
 			"platforms": [
 				{
-					"name": "C++ Arduino AVR Boards",
+					"name": "Arduino C++ AVR Boards",
 					"architecture": "avr",
 					"version": "1.8.6",
 					"category": "Arduino",
@@ -21,85 +21,85 @@
 					},
 					"boards": [
 						{
-							"name": "Arduino Yún"
+							"name": "Arduino C++ Yún"
 						},
 						{
-							"name": "Arduino UNO"
+							"name": "Arduino C++ UNO"
 						},
 						{
-							"name": "Arduino UNO Mini"
+							"name": "Arduino C++ UNO Mini"
 						},
 						{
-							"name": "Arduino UNO WiFi"
+							"name": "Arduino C++ UNO WiFi"
 						},
 						{
-							"name": "Arduino Diecimila"
+							"name": "Arduino C++ Diecimila"
 						},
 						{
-							"name": "Arduino Nano"
+							"name": "Arduino C++ Nano"
 						},
 						{
-							"name": "Arduino Mega"
+							"name": "Arduino C++ Mega"
 						},
 						{
-							"name": "Arduino Mega ADK"
+							"name": "Arduino C++ Mega ADK"
 						},
 						{
-							"name": "Arduino Leonardo"
+							"name": "Arduino C++ Leonardo"
 						},
 						{
-							"name": "Arduino Leonardo Ethernet"
+							"name": "Arduino C++ Leonardo Ethernet"
 						},
 						{
-							"name": "Arduino Micro"
+							"name": "Arduino C++ Micro"
 						},
 						{
-							"name": "Arduino Esplora"
+							"name": "Arduino C++ Esplora"
 						},
 						{
-							"name": "Arduino Mini"
+							"name": "Arduino C++ Mini"
 						},
 						{
-							"name": "Arduino Ethernet"
+							"name": "Arduino C++ Ethernet"
 						},
 						{
-							"name": "Arduino Fio"
+							"name": "Arduino C++ Fio"
 						},
 						{
-							"name": "Arduino BT"
+							"name": "Arduino C++ BT"
 						},
 						{
-							"name": "Arduino LilyPad USB"
+							"name": "Arduino C++ LilyPad USB"
 						},
 						{
-							"name": "Arduino LilyPad"
+							"name": "Arduino C++ LilyPad"
 						},
 						{
-							"name": "Arduino Pro"
+							"name": "Arduino C++ Pro"
 						},
 						{
-							"name": "Arduino ATMegaNG"
+							"name": "Arduino C++ ATMegaNG"
 						},
 						{
-							"name": "Arduino Robot Control"
+							"name": "Arduino C++ Robot Control"
 						},
 						{
-							"name": "Arduino Robot Motor"
+							"name": "Arduino C++ Robot Motor"
 						},
 						{
-							"name": "Arduino Gemma"
+							"name": "Arduino C++ Gemma"
 						},
 						{
-							"name": "Adafruit Circuit Playground"
+							"name": "AdafruitC++  Circuit Playground"
 						},
 						{
-							"name": "Arduino Yún Mini"
+							"name": "Arduino C++ Yún Mini"
 						},
 						{
-							"name": "Arduino Industrial 101"
+							"name": "Arduino C++ Industrial 101"
 						},
 						{
-							"name": "Linino One"
+							"name": "C++ Linino One"
 						}
 					],
 					"toolsDependencies": [

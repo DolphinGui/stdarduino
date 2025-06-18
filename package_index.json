@@ -8,7 +8,7 @@
 			"help": { "online": "https://github.com/DolphinGui/stdarduino" },
 			"platforms": [
 				{
-					"name": "Arduino AVR Boards",
+					"name": "C++ Arduino AVR Boards",
 					"architecture": "avr",
 					"version": "1.8.6",
 					"category": "Arduino",

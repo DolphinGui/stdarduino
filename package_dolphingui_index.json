@@ -2,7 +2,7 @@
 	"packages": [
 		{
 			"name": "stdarduino",
-			"maintainer": "Shin Umeda",
+			"maintainer": "Shin",
 			"websiteURL": "https://github.com/DolphinGui/stdarduino",
 			"email": "Please don't email me",
 			"help": { "online": "https://github.com/DolphinGui/stdarduino" },
@@ -11,7 +11,7 @@
 					"name": "Arduino C++ AVR Boards",
 					"architecture": "avr",
 					"version": "1.8.6",
-					"category": "Arduino",
+					"category": "Contributed",
 					"url": "https://downloads.arduino.cc/cores/staging/avr-1.8.6.tar.bz2",
 					"archiveFileName": "avr-1.8.6.tar.bz2",
 					"checksum": "SHA-256:ff1d17274b5a952f172074bd36c3924336baefded0232e10982f8999c2f7c3b6",

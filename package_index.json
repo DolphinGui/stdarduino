@@ -1,0 +1,148 @@
+{
+	"packages": [
+		{
+			"name": "stdarduino",
+			"maintainer": "Shin Umeda",
+			"websiteURL": "https://github.com/DolphinGui/stdarduino",
+			"email": "Please don't email me",
+			"help": { "online": "https://github.com/DolphinGui/stdarduino" },
+			"platforms": [
+				{
+					"name": "Arduino AVR Boards",
+					"architecture": "avr",
+					"version": "1.8.6",
+					"category": "Arduino",
+					"url": "https://downloads.arduino.cc/cores/staging/avr-1.8.6.tar.bz2",
+					"archiveFileName": "avr-1.8.6.tar.bz2",
+					"checksum": "SHA-256:ff1d17274b5a952f172074bd36c3924336baefded0232e10982f8999c2f7c3b6",
+					"size": "7127080",
+					"help": {
+						"online": "https://www.arduino.cc/en/Reference/HomePage"
+					},
+					"boards": [
+						{
+							"name": "Arduino Yún"
+						},
+						{
+							"name": "Arduino UNO"
+						},
+						{
+							"name": "Arduino UNO Mini"
+						},
+						{
+							"name": "Arduino UNO WiFi"
+						},
+						{
+							"name": "Arduino Diecimila"
+						},
+						{
+							"name": "Arduino Nano"
+						},
+						{
+							"name": "Arduino Mega"
+						},
+						{
+							"name": "Arduino Mega ADK"
+						},
+						{
+							"name": "Arduino Leonardo"
+						},
+						{
+							"name": "Arduino Leonardo Ethernet"
+						},
+						{
+							"name": "Arduino Micro"
+						},
+						{
+							"name": "Arduino Esplora"
+						},
+						{
+							"name": "Arduino Mini"
+						},
+						{
+							"name": "Arduino Ethernet"
+						},
+						{
+							"name": "Arduino Fio"
+						},
+						{
+							"name": "Arduino BT"
+						},
+						{
+							"name": "Arduino LilyPad USB"
+						},
+						{
+							"name": "Arduino LilyPad"
+						},
+						{
+							"name": "Arduino Pro"
+						},
+						{
+							"name": "Arduino ATMegaNG"
+						},
+						{
+							"name": "Arduino Robot Control"
+						},
+						{
+							"name": "Arduino Robot Motor"
+						},
+						{
+							"name": "Arduino Gemma"
+						},
+						{
+							"name": "Adafruit Circuit Playground"
+						},
+						{
+							"name": "Arduino Yún Mini"
+						},
+						{
+							"name": "Arduino Industrial 101"
+						},
+						{
+							"name": "Linino One"
+						}
+					],
+					"toolsDependencies": [
+						{
+							"packager": "arduino",
+							"name": "arduinoOTA",
+							"version": "1.3.0"
+						},
+						{
+							"packager": "stdarduino",
+							"name": "avr-gcc",
+							"version": "0."
+						},
+						{
+							"packager": "arduino",
+							"name": "avrdude",
+							"version": "6.3.0-arduino17"
+						}
+					]
+				}
+			],
+			"tools": [
+				{
+					"name": "avr-gcc",
+					"version": "0.8.3",
+					"systems": [
+						{
+							"host": "x86_64-mingw32",
+							"url": "https://github.com/DolphinGui/std-avr-gcc/releases/download/v0.8.3-alpha/winroot.tar.gz",
+							"archiveFileName": "winroot.tar.gz",
+							"checksum": "SHA-256:fde55a21fa059ff214609e653e3ed243685c842d958e2ca88ae125bb42b7ae94",
+							"size": "726894429"
+						},
+						{
+							"host": "x86_64-linux-gnu",
+							"url": "https://github.com/DolphinGui/std-avr-gcc/releases/download/v0.8.3-alpha/root.tar.xz",
+							"archiveFileName": "root.tar.xz",
+							"checksum": "SHA-256:9e630a8302f46fc1fa211e2b064b488c402daf75fa731427fbfdfd8bb9cf3125",
+							"size": "399977128"
+						}
+					]
+				}
+			]
+		}
+	]
+}

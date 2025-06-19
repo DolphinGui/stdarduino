@@ -10,12 +10,12 @@
 				{
 					"name": "Arduino C++ AVR Boards",
 					"architecture": "avr",
-					"version": "1.8.6",
+					"version": "1.8.6-1",
 					"category": "Contributed",
-					"url": "https://downloads.arduino.cc/cores/staging/avr-1.8.6.tar.bz2",
-					"archiveFileName": "avr-1.8.6.tar.bz2",
-					"checksum": "SHA-256:ff1d17274b5a952f172074bd36c3924336baefded0232e10982f8999c2f7c3b6",
-					"size": "7127080",
+					"url": "https://github.com/DolphinGui/ArduinoCore-avr/archive/refs/tags/1.8.6-1.tar.gz",
+					"archiveFileName": "ArduinoCore-avr-1.8.6-1.tar.gz",
+					"checksum": "SHA-256:a6539c122af13daf0617e325adfae162483abb2b0a2fe3a3280514f95532c24b",
+					"size": "7946550",
 					"help": {
 						"online": "https://www.arduino.cc/en/Reference/HomePage"
 					},

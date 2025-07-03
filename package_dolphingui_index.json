@@ -1,148 +1,290 @@
 {
-	"packages": [
-		{
-			"name": "stdarduino",
-			"maintainer": "Shin",
-			"websiteURL": "https://github.com/DolphinGui/stdarduino",
-			"email": "Please don't email me",
-			"help": { "online": "https://github.com/DolphinGui/stdarduino" },
-			"platforms": [
-				{
-					"name": "Arduino C++ AVR Boards",
-					"architecture": "avr",
-					"version": "1.8.6-1",
-					"category": "Contributed",
-					"url": "https://github.com/DolphinGui/ArduinoCore-avr/archive/refs/tags/1.8.6-1.tar.gz",
-					"archiveFileName": "ArduinoCore-avr-1.8.6-1.tar.gz",
-					"checksum": "SHA-256:a6539c122af13daf0617e325adfae162483abb2b0a2fe3a3280514f95532c24b",
-					"size": "7946550",
-					"help": {
-						"online": "https://www.arduino.cc/en/Reference/HomePage"
-					},
-					"boards": [
-						{
-							"name": "Arduino C++ Yún"
-						},
-						{
-							"name": "Arduino C++ UNO"
-						},
-						{
-							"name": "Arduino C++ UNO Mini"
-						},
-						{
-							"name": "Arduino C++ UNO WiFi"
-						},
-						{
-							"name": "Arduino C++ Diecimila"
-						},
-						{
-							"name": "Arduino C++ Nano"
-						},
-						{
-							"name": "Arduino C++ Mega"
-						},
-						{
-							"name": "Arduino C++ Mega ADK"
-						},
-						{
-							"name": "Arduino C++ Leonardo"
-						},
-						{
-							"name": "Arduino C++ Leonardo Ethernet"
-						},
-						{
-							"name": "Arduino C++ Micro"
-						},
-						{
-							"name": "Arduino C++ Esplora"
-						},
-						{
-							"name": "Arduino C++ Mini"
-						},
-						{
-							"name": "Arduino C++ Ethernet"
-						},
-						{
-							"name": "Arduino C++ Fio"
-						},
-						{
-							"name": "Arduino C++ BT"
-						},
-						{
-							"name": "Arduino C++ LilyPad USB"
-						},
-						{
-							"name": "Arduino C++ LilyPad"
-						},
-						{
-							"name": "Arduino C++ Pro"
-						},
-						{
-							"name": "Arduino C++ ATMegaNG"
-						},
-						{
-							"name": "Arduino C++ Robot Control"
-						},
-						{
-							"name": "Arduino C++ Robot Motor"
-						},
-						{
-							"name": "Arduino C++ Gemma"
-						},
-						{
-							"name": "AdafruitC++  Circuit Playground"
-						},
-						{
-							"name": "Arduino C++ Yún Mini"
-						},
-						{
-							"name": "Arduino C++ Industrial 101"
-						},
-						{
-							"name": "C++ Linino One"
-						}
-					],
-					"toolsDependencies": [
-						{
-							"packager": "arduino",
-							"name": "arduinoOTA",
-							"version": "1.3.0"
-						},
-						{
-							"packager": "stdarduino",
-							"name": "avr-gcc",
-							"version": "0.8.3"
-						},
-						{
-							"packager": "arduino",
-							"name": "avrdude",
-							"version": "6.3.0-arduino17"
-						}
-					]
-				}
-			],
-			"tools": [
-				{
-					"name": "avr-gcc",
-					"version": "0.8.3",
-					"systems": [
-						{
-							"host": "x86_64-mingw32",
-							"url": "https://github.com/DolphinGui/std-avr-gcc/releases/download/v0.8.3-alpha/winroot.tar.gz",
-							"archiveFileName": "winroot.tar.gz",
-							"checksum": "SHA-256:fde55a21fa059ff214609e653e3ed243685c842d958e2ca88ae125bb42b7ae94",
-							"size": "726894429"
-						},
-						{
-							"host": "x86_64-linux-gnu",
-							"url": "https://github.com/DolphinGui/std-avr-gcc/releases/download/v0.8.3-alpha/root.tar.xz",
-							"archiveFileName": "root.tar.xz",
-							"checksum": "SHA-256:9e630a8302f46fc1fa211e2b064b488c402daf75fa731427fbfdfd8bb9cf3125",
-							"size": "399977128"
-						}
-					]
-				}
-			]
-		}
-	]
+  "packages": [
+    {
+      "name": "stdarduino",
+      "maintainer": "Shin",
+      "websiteURL": "https://github.com/DolphinGui/stdarduino",
+      "email": "Please don't email me",
+      "help": {
+        "online": "https://github.com/DolphinGui/stdarduino"
+      },
+      "platforms": [
+        {
+          "name": "Arduino C++ AVR Boards",
+          "architecture": "avr",
+          "version": "1.8.6-1",
+          "category": "Contributed",
+          "url": "https://github.com/DolphinGui/ArduinoCore-avr/archive/refs/tags/1.8.6-1.tar.gz",
+          "archiveFileName": "ArduinoCore-avr-1.8.6-1.tar.gz",
+          "checksum": "SHA-256:a6539c122af13daf0617e325adfae162483abb2b0a2fe3a3280514f95532c24b",
+          "size": "7946550",
+          "help": {
+            "online": "https://www.arduino.cc/en/Reference/HomePage"
+          },
+          "boards": [
+            {
+              "name": "Arduino C++ Yún"
+            },
+            {
+              "name": "Arduino C++ UNO"
+            },
+            {
+              "name": "Arduino C++ UNO Mini"
+            },
+            {
+              "name": "Arduino C++ UNO WiFi"
+            },
+            {
+              "name": "Arduino C++ Diecimila"
+            },
+            {
+              "name": "Arduino C++ Nano"
+            },
+            {
+              "name": "Arduino C++ Mega"
+            },
+            {
+              "name": "Arduino C++ Mega ADK"
+            },
+            {
+              "name": "Arduino C++ Leonardo"
+            },
+            {
+              "name": "Arduino C++ Leonardo Ethernet"
+            },
+            {
+              "name": "Arduino C++ Micro"
+            },
+            {
+              "name": "Arduino C++ Esplora"
+            },
+            {
+              "name": "Arduino C++ Mini"
+            },
+            {
+              "name": "Arduino C++ Ethernet"
+            },
+            {
+              "name": "Arduino C++ Fio"
+            },
+            {
+              "name": "Arduino C++ BT"
+            },
+            {
+              "name": "Arduino C++ LilyPad USB"
+            },
+            {
+              "name": "Arduino C++ LilyPad"
+            },
+            {
+              "name": "Arduino C++ Pro"
+            },
+            {
+              "name": "Arduino C++ ATMegaNG"
+            },
+            {
+              "name": "Arduino C++ Robot Control"
+            },
+            {
+              "name": "Arduino C++ Robot Motor"
+            },
+            {
+              "name": "Arduino C++ Gemma"
+            },
+            {
+              "name": "AdafruitC++  Circuit Playground"
+            },
+            {
+              "name": "Arduino C++ Yún Mini"
+            },
+            {
+              "name": "Arduino C++ Industrial 101"
+            },
+            {
+              "name": "C++ Linino One"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "arduinoOTA",
+              "version": "1.3.0"
+            },
+            {
+              "packager": "stdarduino",
+              "name": "avr-gcc",
+              "version": "0.8.3"
+            },
+            {
+              "packager": "arduino",
+              "name": "avrdude",
+              "version": "6.3.0-arduino17"
+            }
+          ]
+        },
+        {
+          "name": "Arduino C++ AVR Boards",
+          "architecture": "avr",
+          "version": "1.8.6-2",
+          "category": "Contributed",
+          "url": "https://github.com/DolphinGui/ArduinoCore-avr/archive/refs/tags/1.8.6-2.tar.gz",
+          "archiveFileName": "ArduinoCore-avr-1.8.6-2.tar.gz",
+          "checksum": "SHA-256:dce37923231cf3879e0da5444fe066e425e7b39600be9bf21ebb4c71e4be28e0",
+          "size": "7946581",
+          "help": {
+            "online": "https://www.arduino.cc/en/Reference/HomePage"
+          },
+          "boards": [
+            {
+              "name": "Arduino C++ Yún"
+            },
+            {
+              "name": "Arduino C++ UNO"
+            },
+            {
+              "name": "Arduino C++ UNO Mini"
+            },
+            {
+              "name": "Arduino C++ UNO WiFi"
+            },
+            {
+              "name": "Arduino C++ Diecimila"
+            },
+            {
+              "name": "Arduino C++ Nano"
+            },
+            {
+              "name": "Arduino C++ Mega"
+            },
+            {
+              "name": "Arduino C++ Mega ADK"
+            },
+            {
+              "name": "Arduino C++ Leonardo"
+            },
+            {
+              "name": "Arduino C++ Leonardo Ethernet"
+            },
+            {
+              "name": "Arduino C++ Micro"
+            },
+            {
+              "name": "Arduino C++ Esplora"
+            },
+            {
+              "name": "Arduino C++ Mini"
+            },
+            {
+              "name": "Arduino C++ Ethernet"
+            },
+            {
+              "name": "Arduino C++ Fio"
+            },
+            {
+              "name": "Arduino C++ BT"
+            },
+            {
+              "name": "Arduino C++ LilyPad USB"
+            },
+            {
+              "name": "Arduino C++ LilyPad"
+            },
+            {
+              "name": "Arduino C++ Pro"
+            },
+            {
+              "name": "Arduino C++ ATMegaNG"
+            },
+            {
+              "name": "Arduino C++ Robot Control"
+            },
+            {
+              "name": "Arduino C++ Robot Motor"
+            },
+            {
+              "name": "Arduino C++ Gemma"
+            },
+            {
+              "name": "AdafruitC++  Circuit Playground"
+            },
+            {
+              "name": "Arduino C++ Yún Mini"
+            },
+            {
+              "name": "Arduino C++ Industrial 101"
+            },
+            {
+              "name": "C++ Linino One"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "arduinoOTA",
+              "version": "1.3.0"
+            },
+            {
+              "packager": "stdarduino",
+              "name": "avr-gcc",
+              "version": "0.9.0"
+            },
+            {
+              "packager": "arduino",
+              "name": "avrdude",
+              "version": "6.3.0-arduino17"
+            }
+          ]
+        }
+      ],
+      "tools": [
+        {
+          "name": "avr-gcc",
+          "version": "0.8.3",
+          "systems": [
+            {
+              "host": "x86_64-mingw32",
+              "url": "https://github.com/DolphinGui/std-avr-gcc/releases/download/v0.8.3-alpha/winroot.tar.gz",
+              "archiveFileName": "winroot.tar.gz",
+              "checksum": "SHA-256:fde55a21fa059ff214609e653e3ed243685c842d958e2ca88ae125bb42b7ae94",
+              "size": "726894429"
+            },
+            {
+              "host": "x86_64-linux-gnu",
+              "url": "https://github.com/DolphinGui/std-avr-gcc/releases/download/v0.8.3-alpha/root.tar.xz",
+              "archiveFileName": "root.tar.xz",
+              "checksum": "SHA-256:9e630a8302f46fc1fa211e2b064b488c402daf75fa731427fbfdfd8bb9cf3125",
+              "size": "399977128"
+            }
+          ]
+        },
+        {
+          "name": "avr-gcc",
+          "version": "0.9.0",
+          "systems": [
+            {
+              "host": "x86_64-mingw32",
+              "url": "https://github.com/DolphinGui/std-avr-gcc/releases/download/v0.9.0-alpha/winroot.tar.xz",
+              "archiveFileName": "winroot.tar.gz",
+              "checksum": "SHA-256:45d9eeaf7cdbe1ef0b7c24a84d3745dd016474d77ae5a2567ad70b291d99b57d",
+              "size": "589107404"
+            },
+            {
+              "host": "x86_64-linux-gnu",
+              "url": "https://github.com/DolphinGui/std-avr-gcc/releases/download/v0.9.0-alpha/root.tar.xz",
+              "archiveFileName": "root.tar.xz",
+              "checksum": "SHA-256:f9bd4da6e628844927e510466b03a4dc4e747cd1a42c3d43b9fa5f63c400cb75",
+              "size": "570502696"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "url": "https://github.com/DolphinGui/std-avr-gcc/releases/download/v0.8.3-alpha/root.tar.xz",
+              "archiveFileName": "root.tar.xz",
+              "checksum": "SHA-256:9f5aa81b0e95681d5d597989713823ccd6cf2e0ff79466bc477613e7fb4eafc4",
+              "size": "348572832"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

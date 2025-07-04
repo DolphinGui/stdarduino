@@ -125,12 +125,12 @@
         {
           "name": "Arduino C++ AVR Boards",
           "architecture": "avr",
-          "version": "1.8.6-2",
+          "version": "1.8.6-3",
           "category": "Contributed",
-          "url": "https://github.com/DolphinGui/ArduinoCore-avr/archive/refs/tags/1.8.6-2.tar.gz",
-          "archiveFileName": "ArduinoCore-avr-1.8.6-2.tar.gz",
-          "checksum": "SHA-256:dce37923231cf3879e0da5444fe066e425e7b39600be9bf21ebb4c71e4be28e0",
-          "size": "7946581",
+          "url": "https://github.com/DolphinGui/ArduinoCore-avr/archive/refs/tags/1.8.6-3.tar.gz",
+          "archiveFileName": "ArduinoCore-avr-1.8.6-3.tar.gz",
+          "checksum": "SHA-256:b40ce488399077b6725e8ae40776e30a917f2048fe1cc38fe053bc28056d6d59",
+          "size": "7945448",
           "help": {
             "online": "https://www.arduino.cc/en/Reference/HomePage"
           },
